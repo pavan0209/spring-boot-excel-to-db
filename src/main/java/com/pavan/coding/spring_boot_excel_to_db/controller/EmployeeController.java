@@ -22,4 +22,15 @@ public class EmployeeController {
         employeeService.saveFileData(file.getInputStream());
         return ResponseEntity.ok("Excel file data saved into Database");
     }
+
+    @GetMapping("/read-data")
+    public ResponseEntity<List<Employee>> findAll() {
+        return ResponseEntity.ok(employeeService.findAll());
+    }
+
+    @DeleteMapping("/delete-data")
+    public ResponseEntity<String> deleteAll() {
+        employeeService.deleteAll();
+        return ResponseEntity.ok("Deleted all records...!");
+    }
 }
