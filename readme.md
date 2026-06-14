@@ -1,5 +1,7 @@
 # 📊 Spring Boot: Excel to Database
 
+A Spring Boot REST API application that reads employee data from an Excel file and stores it in a MySQL database using Apache POI. The application provides APIs to upload Excel data, retrieve stored records, and delete records from the database.
+
 ---
 ## ⚙️ What This Covers
 
@@ -39,17 +41,20 @@
 
 ---
 
-## 🚀 How it works
-<div align="center">
-<img width="100%" alt="Spring MVC Flow" src="output/etd_flow.png">
-</div>
+## 🚀 How it Works
+
+<p align="center">
+  <img src="output/etd_flow.png" alt="Application Flow" width="75%">
+</p>
+
 ---
 
 ## 📸 Output
 
-<div align="center">
-<img width="100%" alt="Spring MVC Flow" src="output/output.png">
-</div>
+<p align="center">
+  <img src="output/output.png" alt="Swagger Output" width="95%">
+</p>
+
 ---
 
 
